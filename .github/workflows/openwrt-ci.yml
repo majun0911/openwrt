@@ -46,14 +46,15 @@ jobs:
           
       - name: 自定义插件主题。
         run: |
+           git clone https://github.com/coolsnowwolf/openwrt 
            cd package
            mkdir openwrt-packages
            cd openwrt-packages
            git clone https://github.com/kenzok8/openwrt-packages.git
            git clone https://github.com/kenzok8/small.git
-           CD ..
-           git clone https://github.com/coolsnowwolf/openwrt
-           cd openwrt 
+           CD /
+           CD openwrt
+
            
            
       - name: Update feeds
