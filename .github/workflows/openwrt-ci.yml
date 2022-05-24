@@ -9,7 +9,7 @@
 
 name: OpenWrt
 
-# on:
+on:
   push:
     branches: 
       - master
