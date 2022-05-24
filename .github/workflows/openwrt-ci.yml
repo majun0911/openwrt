@@ -12,7 +12,7 @@ name: OpenWrt
 on:
   push:
     branches: 
-      - [ lede-17.01 ]
+      - lede-17.01
   # schedule:
   #   - cron: 0 20 * * *
   # release:
