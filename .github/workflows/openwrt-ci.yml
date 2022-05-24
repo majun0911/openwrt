@@ -9,8 +9,8 @@
 
 name: OpenWrt
 
-# on:
-#   push:
+on:
+  push:
     branches: 
       - master
   # schedule:
