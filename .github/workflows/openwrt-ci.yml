@@ -24,9 +24,9 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@lede-17.01
         with:
-          ref: master
+          ref: lede-17.01
 
       - name: Initialization environment
         env:
