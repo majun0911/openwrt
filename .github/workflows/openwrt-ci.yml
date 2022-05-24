@@ -152,6 +152,8 @@ jobs:
           CONFIG_PACKAGE_luci-app-softethervpn=y
           CONFIG_PACKAGE_luci-app-netdata=y
           CONFIG_PACKAGE_luci-app-passwall2=y
+          CONFIG_PACKAGE_luci-app-store=y
+          CONFIG_PACKAGE_luci-app-adguardhome=y
           EOF
           # LuCI主题:
           cat >> .config <<EOF
