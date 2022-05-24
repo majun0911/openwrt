@@ -52,6 +52,7 @@ jobs:
            cd openwrt-packages
            git clone https://github.com/kenzok8/openwrt-packages.git
            git clone https://github.com/kenzok8/small.git
+           
          
       - name: Update feeds
         run: |
